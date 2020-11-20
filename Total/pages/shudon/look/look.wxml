@@ -1,0 +1,23 @@
+<!--pages/shudon/look.wxml-->
+
+<view class='bg'>
+  <image class='img' src='/images/background.jpg'></image>
+</view>
+
+<view class='sbg'>
+  <view class='bok'>
+    <view class='line'></view>
+    <view class='div'>
+      <image src='/images/happy.jpg' class='pic1'></image>
+      <view class='div2'>
+        <view class='date'>
+          <image src='/images/fly.png' class='fly'></image>
+          <view class='texta'>11.20</view>
+        </view>  
+        <view class='textb'> 昨天 蜜雪冰城真好喝</view> 
+      </view>
+    </view>
+    <view class='line'></view>
+    <view class='textb'>没有更多啦</view>
+  </view>
+</view>

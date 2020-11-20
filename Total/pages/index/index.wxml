@@ -1,0 +1,25 @@
+<!--index.wxml-->
+<view class='background'>
+  <image class='img' src='/images/background.jpg'></image>
+</view>
+<view class="container">
+  <view class="userinfo">
+    <image class='myavatar' src='/blackground/tx.jpg'></image>
+    <text>\n</text>
+    <view class='ordinary'>welcome</view>
+    <text>\n</text>
+  <view class='ordinary'>to</view>
+  <text>\n</text>
+  <view class='ordinary'>Andidote</view>
+  <text>\n</text>
+    <button wx:if="{{!hasUserInfo && canIUse}}" bindtap="jumppage" class="user-motto" style="background-color:#0fffff" open-type="getUserInfo" bindgetuserinfo="getUserInfo">微信登录 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text  class="userinfo-nickname">{{userInfo.nickName}}</text>
+      <button class="ziti" style="background-color:#0fffff" bindtap="jumppage">点击进入</button>
+    </block>
+  </view>
+</view>
+
+
+

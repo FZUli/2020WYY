@@ -1,0 +1,63 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/wyy1/wyy1", 
+    "pages/wyy2/wyy2",
+    "pages/jieguo/jieguo",
+    "pages/xinlijiao/xinlijiao",
+    "pages/xljcs/xljcs",              
+    "pages/shudon/edit/edit",
+    "pages/shudon/look/look",
+    "pages/shudon/sy/sy",
+    "pages/i_like/i_like",
+    "pages/image/image",  
+    "pages/mine/mine",
+    "pages/my_favorite/my_favorite",
+    "pages/record/record",
+    "pages/psychology/psychology",
+    "pages/imgs/imgs",
+    "pages/logs/logs"
+    
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#81c2e0",
+    "navigationBarTitleText": "Antidote",
+    "navigationBarTextStyle":"white",
+    "enablePullDownRefresh": true,
+    "backgroundColor":"#81c2e0"
+
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color":"#ccc",
+    "selectedColor": "#0077FF",
+    "list": [
+      {
+        "pagePath": "pages/wyy2/wyy2",
+        "text": "发现",
+        "iconPath": "image/faxian.png",
+        "selectedIconPath": "image/faxian2.png"
+      },
+      {
+        "pagePath": "pages/xinlijiao/xinlijiao",
+        "text": "心理角",
+        "iconPath": "/pages/imgs/005.png",
+        "selectedIconPath": "/pages/imgs/006.png"
+      },
+      {
+        "pagePath": "pages/shudon/sy/sy",
+        "text": "树洞星球",
+        "iconPath": "images/2.png",
+        "selectedIconPath": "images/1.png"
+      },{
+      "pagePath": "pages/mine/mine",
+      "text": "我的",
+      "iconPath": "pages/image/mine.png",
+      "selectedIconPath": "pages/image/mine2.png"
+    }
+  ]
+  }
+}
+

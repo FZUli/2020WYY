@@ -1,0 +1,64 @@
+.bg{
+  height: 100%;
+}
+.img{
+  position:absolute;
+  display:block;
+  width: 100%;
+  height: 100%;
+  z-index:-1;
+}
+.sbg{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  background-color: #ebedef;
+  opacity: 0.9;
+}
+.bok{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-top: 30rpx;
+}
+.line{
+  width: 100%;
+  height: 5rpx;
+  border: 4rpx dashed #81c2e0;
+}
+.div{
+  flex-direction: row;
+  margin-left: 60rpx;
+  margin-right: 60rpx;
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+  height:120rpx;
+  width: 90%;
+  display: flex;
+}
+.div2{
+  display: block;
+  margin-left: 30rpx;
+}
+.date{
+  display: flex;
+  align-items: center;
+}
+.fly{
+  width: 52rpx;
+  height: 60rpx;
+}
+.texta{
+  font-size: 40rpx;
+}
+.textb{
+  margin-top: 10rpx;
+  font-size: 35rpx;
+  color: darkgray;
+}
+.pic1{
+  width: 110rpx;
+  height: 120rpx;
+}

@@ -1,0 +1,18 @@
+{
+  "navigationBarTitleText":"我的日记",
+  "tabBar": {
+    "selectedColor": "#0077FF",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "images/2.png",
+      "selectedIconPath": "images/1.png"
+    },
+    {
+      "pagePath": "pages/shudon/sy",
+      "text": "树洞星球",
+      "iconPath": "images/2.png",
+      "selectedIconPath": "images/1.png"
+    }] 
+  }
+}

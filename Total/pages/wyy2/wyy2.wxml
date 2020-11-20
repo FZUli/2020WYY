@@ -1,0 +1,45 @@
+<view>
+     <view>
+        <view class="weui-search-bar">
+            <view class="weui-search-bar__form">
+            <!-- 最初始时的搜索框 -->
+                <view class="weui-search-bar__box">
+                    <icon class="weui-icon-search_in-box" type="search" size="14"></icon>
+                    <input type="text" class="weui-search-bar__input" placeholder="搜索"/>
+                </view>
+                <!-- 可编辑时的搜索框 -->
+                <label class="weui-search-bar__label" hidden="{{inputShowed}}" bindtap="showInput">
+                    <icon class="weui-icon-search" type="search" size="14"></icon>
+                    <view class="weui-search-bar__text">搜索</view>
+                </label>
+            </view>
+            <!-- 取消搜索 -->
+            <view class="weui-search-bar__cancel-btn" hidden="{{!inputShowed}}" bindtap="hideInput">取消</view>
+        </view>
+    </view>
+</view>
+<view class='begin'>
+    <image class='begin_logo' src='/image/begin_logo.png'></image>
+    <view class='begin_titile'>精品文章</view>
+</view>
+
+<view class='itemlist'>
+    <block wx:for="{{menuitems}}" wx:key="item">
+      <!-- <view class="list-item"></view> -->
+      <view class='pro_item' >
+          <image class='pro_logo' src='{{item.image}}'></image>
+        <view class='pro_body'>
+            <view class='pro_titile'>{{item.text1}}</view>
+            <text class='pro_desc'>{{item.text2}}</text>
+            <view class='pro_footer'>
+                <image class="but_like" src='/image/but_like.png'></image>
+                <image class="but_collect" src='/image/but_collect.png'></image>
+            </view>
+        </view>
+      </view>
+      <view class="div-line"></view>
+    </block>
+</view>
+
+
+

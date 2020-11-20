@@ -1,0 +1,15 @@
+<!--pages/xljcs/xljcs.wxml-->
+<view class = "container">
+<view class="answer"> 
+  <text class="number" style="border:2px  rgb(114, 183, 248) solid" >{{id}}</text>
+  <text></text>
+  <button class='btn' open-type='openSetting'>123</button>
+  <button class='btn' open-type='openSetting'>123</button>
+  <button class='btn' open-type='openSetting'>123</button>
+  <button class='btn' open-type='openSetting'>123</button>
+</view>
+<view class = "next">
+  <button class='btn1' open-type='openSetting'>上一题</button>
+  <button class='btn2' open-type='openSetting' bindtap="jumppage">{{panduan}}</button>
+</view>
+</view>

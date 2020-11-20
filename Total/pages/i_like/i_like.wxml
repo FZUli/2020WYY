@@ -1,0 +1,14 @@
+<view class='itemlist'>
+    <block wx:for="{{menuitems}}" wx:key="item">
+      <!-- <view class="list-item"></view> -->
+      <view class='pro_item' >
+          <image class='pro_logo' src='{{item.image}}'></image>
+        <view class='pro_body'>
+            <view class='pro_titile'>{{item.text1}}</view>
+            <text class='pro_desc'>{{item.text2}}</text>
+        </view>
+      </view>
+      <view class="div-line"></view>
+    </block>
+</view>
+

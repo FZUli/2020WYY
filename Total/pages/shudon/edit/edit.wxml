@@ -1,0 +1,32 @@
+<!--pages/shudon/edit.wxml-->
+
+<view class='bg'>
+  <image class='img' src='/images/background.jpg'></image>
+</view>
+
+<view class='adphoto'>
+  <view class='backcolor'>
+    <image class='adp' src='/images/add.png'></image>
+    <text class='texta'>添加图片</text>
+  </view>
+</view>
+
+<view class='input'>
+  <view class='title'>
+    <image class='lig' src='/images/light.png'></image>
+    <text class='textb'>标题</text>
+    <view class='butt' form-type="submit">
+      <image class='fly' src='/images/fly.png'></image>
+      <text class='textc'>发送给树洞星球</text>
+    </view>
+  </view>
+  <view class='bok'>
+    <!-- 分割线 -->
+    <view class='line'></view>
+    <!-- 输入文本 -->
+    <view class="text-wrp">
+      <textarea auto-focus="true" style="height: 21em" placeholder="请输入正文" />
+    </view>
+  </view>
+  
+</view>

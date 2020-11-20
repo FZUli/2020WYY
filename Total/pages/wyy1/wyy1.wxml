@@ -1,0 +1,16 @@
+
+  <view class='background'>
+  <image class='img' src='/blackground/loading.png'></image>
+</view>
+  <view class="content">
+</view>
+<text>\n</text>
+<text>\n</text>
+<text>\n</text>
+<text>\n</text>
+<view class="container">
+
+      <button class="ziti" style="background-color:#0fffff" bindtap="bindViewTap">点击进入</button>
+</view>
+
+

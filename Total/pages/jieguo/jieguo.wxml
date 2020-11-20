@@ -1,0 +1,9 @@
+<!--pages/jieguo/jieguo.wxml-->
+<view class = "container">
+<view class="jieguo"> 
+  <text class="number"></text>
+  <text></text>
+</view>
+<button class='btn' open-type='openSetting' bindtap="jumppage">返回心理角</button>
+
+</view>

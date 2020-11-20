@@ -1,0 +1,29 @@
+<!--pages/shudon/sy.wxml-->
+
+<view class='bg'>
+  <image class='img' src='/images/background.jpg'></image>
+</view>
+
+<view class='item-list'>
+  <view class='item-text'>
+    <view class='textf'>这里是</view>
+    <view class='textb'>☆树洞星球☆</view>
+    <view class='textf'>我搬好小板凳啦</view>
+    <view class='textf'>欢迎向我倾诉你的一切哦</view>
+  </view>
+  <view class='butblo'>
+    <navigator url="/pages/shudon/edit/edit" class="button1" hover-class="button1-act" hover-stay-time="100">
+      写日记
+    </navigator>
+    <navigator url="/pages/shudon/look/look" class="button2" hover-class="button2-act" hover-stay-time="100">
+      查看我的日记
+    </navigator>
+  </view>
+  <view class='block1'>注：
+    <view class='block2'>
+    <view>在树洞星球记录的</view>
+    <view>内容不会发布，仅</view>
+    <view>用户本人可见</view>
+    </view>
+  </view>
+</view>

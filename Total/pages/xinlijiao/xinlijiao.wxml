@@ -1,0 +1,24 @@
+<view class="container">
+    <!--<scroll-view class= ""></scroll-view>-->
+    <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{imgUrls}}">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image" width="355" height="150" />
+      </swiper-item>
+    </block>
+  </swiper>
+
+  <view class='topTabSwiper'>
+    <view class='tab  {{currentData == 0 ? "tabBorer" : ""}}'  data-current = "0" bindtap='checkCurrent'>心理测试</view>
+    <view class='tab  {{currentData == 1 ? "tabBorer" : ""}}'  data-current = "1" bindtap='checkCurrent'>心理咨询预约</view>
+  </view>
+  <swiper current="{{currentData}}" style="height:600px;width:100%;position:relative;top:-110rpx;border-radius: 0;" duration="300" bindchange="bindchange">
+  <swiper-item>
+    <button open-type='openSetting' bindtap='jumppage'>测试</button>
+  </swiper-item> 
+  <swiper-item>
+    <view class='swiper_con'>welcome come to 心理咨询预约</view>
+  </swiper-item>
+</swiper>
+
+</view>
